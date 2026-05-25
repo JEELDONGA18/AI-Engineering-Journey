@@ -70,8 +70,51 @@
 * `Pandas_1_series_Introduction_basics.ipynb`
 * `Pandas_2_indexing_and_conditions.ipynb`
 
+<br>
+<br>
+
+# Day 02 - Dataframe Basics and Some Methods
+
+
+## Topics Covered
+
+* `Pandas_3_Dataframe_Introduction_broadcasting.ipynb`
+    * Introduction to Dataframe
+        * Dictionary to dataframe
+    * Showing Dataframe --> `df.head()` & `df.tail()`
+    * Indexing in Series
+        * iloc & loc
+        * Showing Particular column of the dataframe.
+    * Drop particular column from dataset.
+    * Check information of dataframe
+    * Broadcasting 
+    * Renaming column
+    * Unique values of column and `value_counts()`
+    * Add new column
+
+
+
+<br>
+
+## Functions & Methods Learned
+
+| Function / Method   | Purpose                  |
+| -----------------   | ------------------------ |
+| `df.drop(colName, axis=1)`       | Drop Particular column <br> axis = 1 indicates entire column will gone <br>axis = 0 indicates entire row will gone<br> inplace=True means change parmenantly.    |
+| `df.info()`           | Check information of dataframe.           |
+| `df.describe()`          | Check information of numeric columns            |
+| `df.rename(columns = {"old":"new"}, inplace = True)`           | To change particular column name           |
+| `df.unique()`           | Find unique values of column          |
+| `df.value_counts()`            | To find how many times unique values are occured in dataframe or column.           |
+
+<br>
+
+## Files Updated
+
+* `Pandas_3_Dataframe_Introduction_broadcasting.ipynb`
+
 ---
 
 ## Progress
 
-Pandas Library Learning :  █░░░░░░░░░░░ 05%
+Pandas Library Learning :  ██░░░░░░░░░░ 10%
