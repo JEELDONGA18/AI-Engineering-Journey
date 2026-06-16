@@ -117,4 +117,4 @@
 
 ## Progress
 
-Pandas Library Learning :  ██░░░░░░░░░░ 14%
+Pandas Library Learning :  ██░░░░░░░░░░ 15%
