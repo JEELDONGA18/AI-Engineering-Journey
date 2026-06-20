@@ -1,0 +1,13 @@
+For installing any module --> pip install pandas(means module name)
+For installing any module with specific version --> pip install pandas==1.5.2
+For install packages which is the combination of the multiple modules --> pip install virtualenv
+For give name to that package --> virtualenv env(means name of the package)
+For activating the environment --> .\ENV\Scripts\activate.ps1
+For upgrading pip's latest version --> python.exe -m pip install --upgrade pip
+For know the vesion of the pandas --> in powershall type 1. python , 2. import pandas , 3. pandas.__version__ 
+For exit from the environment --> exit and again write exit()
+For close the powershall --> exit
+For deactivate the environment --> deactivate
+To knowing which packages are installed in perticular environment(virtual or global) --> pip freeze
+If we want to write all the packages name which are installed  --> pip freeze > requirments.txt
+If we want to install all the packages which are in the requirments.txt --> pip install -r requirements.txt 

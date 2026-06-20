@@ -1,0 +1,5 @@
+f=open('Poems.txt')
+line=f.read()
+print(line)
+print(f'The "Twinkle" word is found at index : {line.find('Twinkle')}')
+f.close()

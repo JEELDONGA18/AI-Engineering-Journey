@@ -1,0 +1,1 @@
+This is a content means string for the new file.This is text which is append from the 04_modes_of_file.pyhthon file.This is text which is append from the 04_modes_of_file.pyhthon file.This is text which is append from the 04_modes_of_file.pyhthon file.This is text which is append from the 04_modes_of_file.pyhthon file.
